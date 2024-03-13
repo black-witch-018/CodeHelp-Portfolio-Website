@@ -258,3 +258,17 @@ a{
         bottom:0;
     }
 }
+
+.icon-zigzag{
+    z-index: 9;
+    top:1.5em;
+    left:0.3em;
+    animation: zigzag 5s ease-in infinite;
+}
+
+@keyframes zigzag {
+    50%{
+        top:2%;
+        left:5%;
+    }    
+}
