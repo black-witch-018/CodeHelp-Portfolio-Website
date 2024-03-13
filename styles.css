@@ -85,7 +85,6 @@ a{
     font-size: 7em;
     color: rgb(231, 231, 231);
 
-    /* position: absolute; */
     bottom: -16%;
     left:-5%;
     font-weight: bold;
@@ -270,5 +269,19 @@ a{
     50%{
         top:2%;
         left:5%;
+    }    
+}
+
+.icon-plus{
+    z-index:9;
+    left:50%;
+    top:0.8em;
+    animation:plus 5s ease-in infinite;
+}
+
+@keyframes plus {
+    50%{
+        top:3%;
+        left:48%;
     }    
 }
