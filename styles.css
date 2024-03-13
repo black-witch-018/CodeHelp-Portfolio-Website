@@ -212,3 +212,24 @@ a{
         transform: translateY(0px);
     }
 }
+
+.icon-cube{
+    z-index:9;
+    right:1em;
+    top:-0.8em;
+    animation-name: cube;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cube {
+    0%{
+        transform: rotateY(0deg) translateY(0px);
+    }
+    50%{
+        transform: rotateY(180deg) translateY(-12px);
+    }
+    100%{
+        transform: rotateY(360deg) translateY(0px);
+    }
+}
