@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 #wrapper{
@@ -20,4 +21,42 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+}
+.logo{
+    width:80px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.logo-text{
+    margin-left: -1.2rem;
+    font-size:28px;
+}
+
+.nav-items{
+    display: flex;
+    gap:2rem;
+    padding:0 4rem;
+}
+
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+.nav-items div a{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-items div:hover{
+    font-weight: bold;
 }
