@@ -29,6 +29,7 @@
     align-items: center;
     padding-top: 1rem;
 }
+
 .logo{
     width:80px;
 }
@@ -133,6 +134,7 @@ a{
     border: 3px solid transparent;
     transition: all 0.8s; 
 }
+
 .btn-pink::before{
     content:"";
     background-color: #fff;
@@ -146,10 +148,12 @@ a{
     transition: all 0.8s;
     z-index: -1;
 }
+
 .btn-pink:hover{
     border: solid 3px var(--bgOrange);
     color: black;
 }
+
 .btn-pink:hover::before{
     transform: scaleX(1);
 }
@@ -323,6 +327,25 @@ a{
     left:0;
     right:0;
     background-color: #1f1f1f9a; /*9a is for opacity*/
+    transform: scaleX(1);
+    z-index: 0;
+}
+
+.project-card::before{
+    content: "";
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.project-card:hover::before{
     transform: scaleX(1);
 }
 
