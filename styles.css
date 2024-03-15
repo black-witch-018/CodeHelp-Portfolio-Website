@@ -355,6 +355,12 @@ a{
     font-weight: 600;
     color:rgb(255, 255, 255);
     z-index: 10;
+    opacity:0;
+    transition: opacity 0.4s;
+}
+
+.project-card:hover .project-number{
+    opacity: 1;
 }
 
 .project-number-right{
@@ -376,5 +382,78 @@ a{
     bottom: 20%;
     z-index:5;
     gap:1em;
-    transition:0.4s;
+    transition: all 0.4s;
+}
+
+.project-content-left{
+    left:10%;
+}
+
+.project-content-right{
+    right:10%;
+}
+
+.project-skills-container{
+    width:60%;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+
+}
+
+.project-skill{
+    width:40px;
+}
+
+.project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.project-subheading{
+    width:70%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.btn-grp{
+    display:flex;
+    gap:0.9rem;
+    align-items:center;
+}
+
+.btn-project:hover{
+    border:none;
+}
+
+.icon{
+    cursor: pointer;
+    color:white;
+    font-size: 35px;
+    transition: all 0.4s;
+}
+
+.icon:hover{
+    color:var(--bgOrange);
+}
+
+.project-card:hover .project-content{
+    transform: scale(1.1);
+}
+
+#project1{
+    background-image: url('/images/projects/Project1.png');
+}
+
+#project2{
+    background-image: url('/images/projects/Project2.png');
+}
+
+#project3{
+    background-image: url('/images/projects/Project3.png');
+}
+
+#project4{
+    background-image: url('/images/projects/Project4.png');
 }
