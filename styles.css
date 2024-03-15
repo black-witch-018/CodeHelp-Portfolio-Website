@@ -349,3 +349,32 @@ a{
     transform: scaleX(1);
 }
 
+.project-number{
+    position: absolute;
+    font-size: 200px;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.project-number-right{
+    right:-40px;
+    top:-45px;
+}
+
+.project-number-left{
+    left:-40px;
+    top:-45px;
+}
+
+.project-content{
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding: 2em;
+    bottom: 20%;
+    z-index:5;
+    gap:1em;
+    transition:0.4s;
+}
