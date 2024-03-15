@@ -447,6 +447,7 @@ a{
 }
 
 #project2{
+    margin-left:120px;
     background-image: url('/images/projects/Project2.png');
 }
 
@@ -455,5 +456,7 @@ a{
 }
 
 #project4{
+    margin-left:120px;
     background-image: url('/images/projects/Project4.png');
 }
+
