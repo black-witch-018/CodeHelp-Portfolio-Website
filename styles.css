@@ -290,6 +290,10 @@ a{
     }    
 }
 
+#btn-bottom{
+    display:none;
+}
+
 .project-section{
     background-color: rgb(231, 231, 231);
     margin-top:4rem;
