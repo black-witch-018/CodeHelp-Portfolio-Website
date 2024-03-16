@@ -199,12 +199,12 @@ a{
     z-index: 9;
     bottom: -1rem;
     right:0;
-    animation-name: dots;
+    animation-name: dotsAnimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
-@keyframes dots {
+@keyframes dotsAnimation {
     0%{
         transform: translateY(0px);
     }   
@@ -220,12 +220,12 @@ a{
     z-index:9;
     right:1em;
     top:-0.8em;
-    animation-name: cube;
+    animation-name: cubeRotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
-@keyframes cube {
+@keyframes cubeRotate {
     0%{
         transform: rotateY(0deg) translateY(0px);
     }
@@ -241,13 +241,13 @@ a{
     z-index:9;
     left:0;
     bottom:0;
-    animation-name: circle;
+    animation-name: shakeEffect;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes circle {
+@keyframes shakeEffect {
     0%{
         left: 0;
         bottom:0;
@@ -266,10 +266,10 @@ a{
     z-index: 9;
     top:1.5em;
     left:0.3em;
-    animation: zigzag 5s ease-in infinite;
+    animation: zigzagAnimation 5s ease-in infinite;
 }
 
-@keyframes zigzag {
+@keyframes zigzagAnimation {
     50%{
         top:2%;
         left:5%;
@@ -280,10 +280,10 @@ a{
     z-index:9;
     left:50%;
     top:0.8em;
-    animation:plus 5s ease-in infinite;
+    animation:shakeEffectPlus 5s ease-in infinite;
 }
 
-@keyframes plus {
+@keyframes shakeEffectPlus {
     50%{
         top:3%;
         left:48%;
