@@ -279,7 +279,7 @@ a{
 .icon-plus{
     z-index:9;
     left:50%;
-    top:0.8em;
+    top:-0.8em;
     animation:shakeEffectPlus 5s ease-in infinite;
 }
 
